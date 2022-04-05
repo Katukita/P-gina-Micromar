@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Playball);
+
+* {
+margin: 10px;
+padding: 0px;
+}
+
+header {
+float: left;
+border-radius: 10px / 10px;
+box-shadow: rgba(255,255,153,0.5) 0px 0px 10px 10px inset;
+margin: 15px auto;
+width: 400px;
+background: #FFFF00;
+border: 1px solid #999999;
+padding: 10px auto;
+text-shadow: rgb(0,0,150) 3px 3px 5px;
+-ms-transform: rotate(-20deg) skew(-20deg);
+-moz-transform: rotate(-20deg) skew(-20deg);
+-moz-transition: -moz-transform 1s ease-in-out 0.5s;
+-ms-transition: -ms-transform 1s ease-in-out 0.5s;
+
+}
+header:hover {
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+}
+#woxter:hover {
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+}
+
+
+h1 {font-family: 'Playball';}
+h2 {font-family: 'Playball';}
+body {
+text-align: center;
+background-image: url("imagen/logo.jpg");}
+
+
+header img aside section div p footer {
+display: block;
+}
+
+#menu {	
+background: -webkit-linear-gradient(top, #FFFFFF , #FFFCCC , #006688 );
+background: -moz-linear-gradient(top, #FFFFFF , #FFFCCC , #006688 );
+background: -ms-linear-gradient(top, #FFFFFF , #FFFCCC , #006688 );
+border-radius: 10px / 20px;	
+margin: 10px auto;
+width: 960px;
+padding: 5px 15px;
+text-shadow: rgba(0,0,0,0.5) 3px 3px 5px;
+}
+#menu li {
+display: inline-block;
+list-style: none;
+padding: 5px;
+}
+
+article {
+text-align: left;
+overflow: hidden;
+}
+
+#autor {
+clear: both;
+border-top: 1px solid #999999;
+font-family: 'Playball'; 
+}
+
+#autor {
+clear: both;
+text-align: center;
+padding: 20px;
+border-top: 2px solid #999999;
+}
+
+#principal {
+	margin: 15px auto; 
+	overflow: hidden; 
+	background-color: #99CC00; 
+	width: 960; 
+	height: 400;
+	
+	}
+#imp {position: relative; overflow: hidden;font-size: 18; height: 400; padding-left: 20;padding-right: 20;}
+#dar {position: relative; overflow: hidden;font-size: 18; height: 400; padding-left: 20;padding-right: 20;}
+#inc {position: relative; overflow: hidden;font-size: 18; height: 400; padding-left: 20;padding-right: 20;overflow-y:scroll;}
+#dia {position: relative; overflow: hidden;font-size: 18; height: 400; padding-left: 20;padding-right: 20;}
+#rep {position: relative; overflow: hidden;font-size: 18; height: 400; padding-left: 20;padding-right: 20;}
+#hot {position: absolute; top:300; left: 10;width: 150;height: 300;background-color: white;color: black;}

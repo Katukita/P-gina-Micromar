@@ -1,0 +1,92 @@
+﻿<html>
+<head>
+<title>Manual de procedimientos Woxter-Microma</title>
+<meta name="author" content="Jesús Martínez Gómez" />
+<link rel="stylesheet" type="text/css" href="estilo.css"/>
+<link rel="shortcut icon" href="ico/favicon.ico" type="image/ico" />
+</head>
+<body>
+
+<header><h1>PROCEDIMIENTO</h1></header>
+<img id="woxter" src="imagen/micromar.jpg"/>
+
+<nav id="menu">
+<ul>
+<li><a href="#imp" style="text-decoration: none;">Importante</a></li>
+<li><a href="#dar" style="text-decoration: none;">Dar entrada</a></li>
+<li><a href="#inc" style="text-decoration: none;">Incidencias</a></li>
+<li><a href="#dia" style="text-decoration: none;">Diagnóstico</a></li>
+<li><a href="#rep" style="text-decoration: none;">Reparación</a></li>
+</ul>
+</nav>
+<div id="principal">
+<article id="imp">
+<h2>IMPORTANTE</h2>
+<p>Para empezar hay que tener en cuenta varios puntos y tenerlos muy presentes.<br/>
+El primero es que<b><u>"no"</u></b>se acepta diagnóstico cuando se está creando una incidencia.<br/>
+El segundo es que en los diagnósticos,<b><u>"siempre"</u></b>hay que consultar si hay stock de la pieza que necesitamos.<br/>
+Si no hay stock hay que avisar a GLC, ya que de momento hay que añadir una hotline.<br/>
+El tercero es que si el equipo viene sin llamada, se puede buscar en success con la referencia 1 si la trae
+y recordar que puede tener formato <b>567567</b> ó <b>***-567567</b>.<br/>
+También se puede buscar la llamada con el N/S, como siempre.<br/>
+Prioridades:<br/>
+<b>226</b> Media Markt.<br/>
+<b>225</b> Otros.<br/>
+</p>
+</article>
+<article id="dar">
+<h2>DAR ENTRADA</h2>
+<p>Es el proceso que conlleva menos pasos.<br/>
+Cuando suben los bultos, simplemente hay que apuntar cada una de las llamadas, de cada uno de los bultos.<br/>
+Por ahora las llamadas de Woxter empiezan por 1016, no por 2016. El resto es igual por lo que la llamada 300
+quedaría así: <b>101600300</b>. 
+</p>
+</article>
+<article id="inc">
+<h2>INCIDENCIAS</h2>
+<p>Hay que prestar especial atención a este punto. Las incidencias son equipos que cumplen con uno de los siguientes
+requisitos:<br/>
+- Un equipo que viene con un daño físico, no se cubre en garantía, al igual que si viene por líquido. Se gestiona como
+una incidencia y hay que poner la hotline que corresponda.<br/>
+- Un equipo que no está en la lista de los equipos que podemos reparar, por lo tanto también se gestiona como una incidencia.<br/>
+En el caso de daño físico, hay que sacar foto de la rotura o el líquido. Se colgara la/las fotos en la ruta:<br/>
+Datos/woxter/fotos<br/>
+Renombramos la/las fotos con la llamada.<br/>
+Comprobamos los datos del equipo y rectificamos los que sean necesarios. Modelo, N/S, referencia 1, avería
+que dicen que tiene y accesorios si los trae.<br/>
+Una vez hecho esto, hay que cumplimentar en success el informe de reparación y el de salida. En el primero ponemos lo que le pasa
+al equipo y las piezas que son necesarias para que quede reparado.
+En el segundo, es decir en el informe de salida, se pone únicamente lo que hay que cambiar al equipo.
+<b>Muy importante</b> introducir la hotline apropiada según si es reparable y la situación de la documentación + si tiene daño físico o no.
+</p>
+</article>
+<article id="dia">
+<h2>DIAGNÓSTICO</h2>
+<p>En el diagnóstico nos encontramos con incidencias y equipos normales.<br/>
+En el caso de incidencias se hace como se ha comentado anteriormente.<br/>
+Para los casos normales, se diagnóstica teniendo en cuenta que hay que intentar reparar siempre el equipo en diagnóstico, para lo cual hay
+que comprobar que las piezas que necesitamos están en stock. Todas las piezas de Woxter estarán guardadas bajo llave en el armario que
+hay al lado del sitio de GLC. 
+Por lo tanto, determinamos la pieza que necesitamos, comprobamos según el listado de piezas, que hay stock y su ubicación y retiramos
+la pieza que necesitemos. Se la montamos al equipo y si queda reparado, la restamos del excel de stock, la añadimos en success, comprobamos
+que hemos reportado en el informe de reparación y en el de salida y aceptamos diagnóstico. Se embala el equipo junto con la pieza usada,
+a falta de que nos sirvan la pegatina de esa pieza. Se puede dejar ubicado hasta entonces.<br/>
+En caso de que no haya stock de la pieza que necesitemos, por el momento, se hace igual que con el caso anterior, pero hay que avisar a GLC
+porque tendrá que añadir una hotline, para pedir la pieza a Woxter.
+</p>
+</article>
+<article id="rep">
+<h2>REPARACIÓN</h2>
+<p>Con el equipo en reparación, se supone que ha salido una pegatina para cada pieza, la cual tenemos que pegar a la pieza correspondiente, 
+marcar usada y consumirla en success. La pieza vieja se guarda en el armario de las piezas de Woxter.<br/>
+En success se reporta en el informe de salida lo que se le ha cambiado al equipo, si no lo hemos hecho antes y pulsamos en parte parcial, con 
+lo que pasará a limpieza, pulsamos otra vez en parte parcial y pasa a salida. Es la última cola en la que dejaremos el equipo. Lo ubicamos en
+la A1602 y ya se encargará Jose Ángel de llevarse los equipos.
+</p>
+</article>
+</div>
+<footer id="autor">
+<p>Por Jesús Martínez Gómez</p>
+</footer>
+</body>
+</html>
