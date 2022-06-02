@@ -42,11 +42,11 @@ header img aside section div p footer {
 display: block;
 }
 
-#menu {	
+#menu {
 background: -webkit-linear-gradient(top, #FFFFFF , #FFFCCC , #006688 );
 background: -moz-linear-gradient(top, #FFFFFF , #FFFCCC , #006688 );
 background: -ms-linear-gradient(top, #FFFFFF , #FFFCCC , #006688 );
-border-radius: 10px / 20px;	
+border-radius: 10px / 20px;
 margin: 10px auto;
 width: 960px;
 padding: 5px 15px;
@@ -66,7 +66,7 @@ overflow: hidden;
 #autor {
 clear: both;
 border-top: 1px solid #999999;
-font-family: 'Playball'; 
+font-family: 'Playball';
 }
 
 #autor {
@@ -77,16 +77,29 @@ border-top: 2px solid #999999;
 }
 
 #principal {
-	margin: 15px auto; 
-	overflow: hidden; 
-	background-color: #99CC00; 
-	width: 960; 
+	position: sticky;
+	margin: 15px auto;
+	overflow: hidden;
+	background-color: #99CC11;
+	width: 960;
 	height: 400;
-	
+
 	}
-#imp {position: relative; overflow: hidden;font-size: 18; height: 400; padding-left: 20;padding-right: 20;}
+#imp{
+	position: -webkit-sticky; 
+	overflow: hidden;
+	font-size: 18; 
+	height: 400; 
+	padding-left: 20;
+	padding-right: 20;
+
+}
 #dar {position: relative; overflow: hidden;font-size: 18; height: 400; padding-left: 20;padding-right: 20;}
 #inc {position: relative; overflow: hidden;font-size: 18; height: 400; padding-left: 20;padding-right: 20;overflow-y:scroll;}
 #dia {position: relative; overflow: hidden;font-size: 18; height: 400; padding-left: 20;padding-right: 20;}
 #rep {position: relative; overflow: hidden;font-size: 18; height: 400; padding-left: 20;padding-right: 20;}
 #hot {position: absolute; top:300; left: 10;width: 150;height: 300;background-color: white;color: black;}
+
+a:hover {
+	font-size: 18px;
+}
