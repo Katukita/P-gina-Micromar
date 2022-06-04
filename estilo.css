@@ -43,6 +43,9 @@ display: block;
 }
 
 #menu {
+	
+	position: sticky;
+	top: 0;
 background: -webkit-linear-gradient(top, #FFFFFF , #FFFCCC , #006688 );
 background: -moz-linear-gradient(top, #FFFFFF , #FFFCCC , #006688 );
 background: -ms-linear-gradient(top, #FFFFFF , #FFFCCC , #006688 );
@@ -77,7 +80,8 @@ border-top: 2px solid #999999;
 }
 
 #principal {
-	position: sticky;
+	/*position: sticky;*/
+	clear: both;
 	margin: 15px auto;
 	overflow: hidden;
 	background-color: #99CC11;
